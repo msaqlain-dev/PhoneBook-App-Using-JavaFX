@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="790.0" stroke="WHITE" strokeType="INSIDE" width="420.0" />
+      <ImageView fitHeight="125.0" fitWidth="136.0" layoutX="138.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Application%20Images/add%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="173.0" layoutY="317.0" prefHeight="26.0" prefWidth="216.0" />
+      <TextField fx:id="phone" layoutX="173.0" layoutY="375.0" prefHeight="26.0" prefWidth="216.0" />
+      <TextField fx:id="email" layoutX="173.0" layoutY="433.0" prefHeight="26.0" prefWidth="216.0" />
+      <Label layoutX="37.0" layoutY="313.0" text="Name">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="371.0" text="Phone">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="429.0" text="Email">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.88" fitWidth="31.0" layoutX="377.4" layoutY="20.0" onMousePressed="#addcontact" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Application%20Images/yes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="10.0" layoutY="12.0" onMousePressed="#back" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Application%20Images/back.png" />
+         </image>
+      </ImageView>
+      <Line endX="313.9999694824219" endY="7.62939453125E-6" layoutX="106.0" layoutY="60.0" startX="-106.00001525878906" startY="7.62939453125E-6" />
+      <Label layoutX="134.0" layoutY="15.0" text="New Contact">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
